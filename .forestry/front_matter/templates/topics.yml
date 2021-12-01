@@ -1,4 +1,8 @@
 ---
 label: Topics
 hide_body: true
-fields: []
+fields:
+- name: topics
+  type: tag_list
+  default: []
+  label: Topics
