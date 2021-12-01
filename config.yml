@@ -100,3 +100,8 @@ params:
     - permalink
     - summary
     - content
+menu:
+  main:
+  - url: "/topics"
+    name: Topics
+    weight: 1
