@@ -6,3 +6,5 @@ fields:
   type: tag_list
   default: []
   label: Topics
+pages:
+- content/topics.md
