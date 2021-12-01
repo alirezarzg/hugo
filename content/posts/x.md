@@ -1,16 +1,16 @@
 ---
 title: "Part (V) : Farewell , Swifty Collections!"
 date: 2021-07-15T13:10:41+05:30
-slug: "vim-vs-neovim"
-category: "Development Environments"
+slug: "slug-swifty"
+category: "Arrays"
 summary:
-  A brief summary on swift collections' functions such as reduce, filter, map and etc.
+  sum: A brief summary on swift collections' functions such as reduce, filter, map and etc.
 description:
   desc :A brief summary on swift collections' functions such as reduce, filter, map and etc.
 cover:
   image: https://res.cloudinary.com/jarmos/image/upload/v1628425482/vim-vs-neovim_kn8cm9.gif
-  alt: Vim vs Neovim; Which one to use?
-  caption: Vim vs Neovim; Which one to use?
+  alt: swifty alt
+  caption: swifty caption
   relative: false
 showtoc: true
 draft: false
@@ -160,3 +160,4 @@ There will also be a single article , **Swifty String: What are Strings behind t
 ***
 *Thanks a lot for coming this far and reading the article :) As you may know it was a summary on a series about [**Higher Order Functions of Swift's Collection**](https://swiftycode.com/part-i-higher-order-functions-in-swift-collections) , so make sure to read previous articles -if you hadn't already- to completely master this subject -**Dattebayo!** . **Stay Safe** , **Code Well** & **Watch Naruto** =) *
 > If you have any questions, suggestions or etc. feel free to contact me at *[alireza@swiftycode.com](mailto:alireza@swiftycode.com)* . We can also chat about One Piece ,Macbeth & Naruto beside Swift -kidding- on Twitter at *[@swiftycode_com](https://twitter.com/swiftycode_com)* .
+
