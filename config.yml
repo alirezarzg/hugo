@@ -45,7 +45,7 @@ params:
     apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: "/apple-touch-icon.png"
   label:
-    text: Home
+    text: Swifty Code ✨
     icon: "/apple-touch-icon.png"
     iconHeight: 35
   profileMode:
@@ -63,9 +63,8 @@ params:
     - name: Tags
       url: tags
   homeInfoParams:
-    Title: Swifty Code ✨
-    Content: "Weekly coding updates to empower your Swift skills by Alireza Rezagholian
-      \U0001F680"
+    Title: Weekly coding updates to empower your Swift skills 🚀
+    Content: "by Alireza Rezagholian"
   socialIcons:
   - name: twitter
     url: https://twitter.com/swiftycode_com
@@ -73,6 +72,12 @@ params:
     url: https://linkedin.com/in/alireza1
   - name: github
     url: https://github.com/swiftycode-com
+  - name: email
+    url: mailto:alireza@swiftycode.com
+  - name: medium
+    url: https://swiftycode.medium.com
+  - name: instagram
+    url: https://www.instagram.com/alirezarzgh/
   analytics:
     google:
       SiteVerificationTag: XYZabc
