@@ -43,3 +43,5 @@ fields:
 - type: boolean
   name: showtoc
   label: showtoc
+pages:
+- content/posts/part-i-what-are-higher-order-functions-in-swift-s-collections.md
