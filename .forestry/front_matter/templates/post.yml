@@ -11,6 +11,10 @@ fields:
 - type: text
   name: slug
   label: slug
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
 - type: text
   name: category
   label: category
