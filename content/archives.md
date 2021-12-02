@@ -1,11 +1,10 @@
 ---
-title: Blog Posts
+title: Posts
 layout: archives
-url: "/blog/"
-summary: Archive of my blog posts arranged chronologicall
+url: "/archives"
+summary: Archive Swifty Code's posts chronologically arranged
 menu:
   main:
-    name: Archives
+    name: Archive
     weight: 2
-
 ---
