@@ -1,41 +1,47 @@
 ---
-title: "Part (V) : Farewell , Swifty Collections!"
-date: 2021-07-15T13:10:41+05:30
-weight: 1
-slug: "part-v-farewell-swifty-collections"
-tags: ["hof", "collections","swifty-tag"]
-categories: ["hash cat", "gunction-cat"]
-series: ["Swifty-series"]
-aliases: ["/first"]
-summary: "sum :A brief summary on swift collections' functions such as reduce, filter, map and etc."
-description: "desc :A brief summary on swift collections' functions such as reduce, filter, map and etc."
+title: 'Part (V) : Farewell , Swifty Collections!'
+date: 2021-11-26T08:40:41+00:00
+weight: "1"
+slug: part-v-farewell-swifty-collections
+tags:
+- swifty-collections
+- array
+- higher-order-functions
+categories:
+- Swifty Collections
+series:
+- Swifty Collections
+aliases: []
+summary: sum :A brief summary on swift collections' functions such as reduce, filter,
+  map and etc.
+description: A brief summary on swift collections' functions such as reduce, filter,
+  map and etc.
 cover:
-  image: "https://res.cloudinary.com/jarmos/image/upload/v1628425482/vim-vs-neovim_kn8cm9.gif" # image path/url
-  alt: swifty alt
-  caption: swifty caption # display caption under cover
-  relative: false # when using page bundles set this to true
-  hidden: false # only hide on current single page
-author: ["Alireza Rezagholian"] # multiple authors
+  image: https://cdn.hashnode.com/res/hashnode/image/upload/v1638478670930/ElOpjZmt6.jpeg
+  alt: swifty-code
+  caption: " </Swifty Code>"
+  relative: false
+  hidden: false
+author:
+- Alireza Rezagholian
 showToc: true
 TocOpen: true
-draft: false
 hidemeta: false
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
+canonicalURL: ''
 disableHLJS: false
+disableShare: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 comments: false
 editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
----
+  URL: ''
+  Text: ''
+  appendFilePath: false
 
+---
 So, it seems that it's the end of the way for Swifty Collections! We learned that there are some functions called Higher Order Functions and their difference with normal ones is that they deal with other functions, either as a *parameter* or as a *return type*.
 
 Also we learned that *Swift provides three primary collection types (arrays, sets, and dictionaries) for storing collections of values.*
@@ -180,4 +186,3 @@ There will also be a single article , **Swifty String: What are Strings behind t
 ***
 *Thanks a lot for coming this far and reading the article :) As you may know it was a summary on a series about [**Higher Order Functions of Swift's Collection**](https://swiftycode.com/part-i-higher-order-functions-in-swift-collections) , so make sure to read previous articles -if you hadn't already- to completely master this subject -**Dattebayo!** . **Stay Safe** , **Code Well** & **Watch Naruto** =) *
 > If you have any questions, suggestions or etc. feel free to contact me at *[alireza@swiftycode.com](mailto:alireza@swiftycode.com)* . We can also chat about One Piece ,Macbeth & Naruto beside Swift -kidding- on Twitter at *[@swiftycode_com](https://twitter.com/swiftycode_com)* .
-
