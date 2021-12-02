@@ -2,7 +2,7 @@
 category = "swifty-collection"
 date = 2021-11-11T19:30:00Z
 description = "What are Higher Order functions in Swift's collections?"
-showtoc = true
+showtoc = false
 slug = "part-i-higher-order-functions-in-swift-collections"
 title = "Part (I) : What are Higher Order functions in Swift's collections ?"
 [cover]
