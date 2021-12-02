@@ -9,10 +9,10 @@ buildFuture: false
 buildExpired: false
 googleAnalytics: 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+  home:
+  - HTML
+  - RSS
+  - JSON
 minify:
   disableXML: true
   minifyOutput: true
@@ -68,8 +68,8 @@ params:
     - name: Tags
       url: tags
   homeInfoParams:
-    Title: Weekly coding updates to empower your Swift skills 🚀
-    Content: "by Alireza Rezagholian"
+    Title: "Weekly coding updates to empower your Swift skills \U0001F680"
+    Content: by Alireza Rezagholian
   socialIcons:
   - name: twitter
     url: https://twitter.com/swiftycode_com
@@ -110,8 +110,3 @@ params:
     - permalink
     - summary
     - content
-menu:
-  main:
-  - url: "/topics"
-    name: Topics
-    weight: 1
