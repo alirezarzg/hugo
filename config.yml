@@ -8,6 +8,11 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 googleAnalytics: 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
 minify:
   disableXML: true
   minifyOutput: true
