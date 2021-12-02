@@ -1,8 +1,11 @@
 ---
 title: "Part (V) : Farewell , Swifty Collections!"
 date: 2021-07-15T13:10:41+05:30
-slug: "slug-swifty"
-category: "Arrays"
+slug: "part-v-farewell-swifty-collections"
+tags: ["hof", "collections","swifty-tag"]
+categories: ["hash cat", "gunction-cat"]
+series: ["Swifty-series"]
+aliases: ["migrate-from-jekyl"]
 summary:
   sum: A brief summary on swift collections' functions such as reduce, filter, map and etc.
 description:
@@ -12,7 +15,8 @@ cover:
   alt: swifty alt
   caption: swifty caption
   relative: false
-showtoc: true
+ShowToc: true
+TocOpen: true
 draft: false
 ---
 
