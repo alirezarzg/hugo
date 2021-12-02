@@ -6,6 +6,6 @@ summary: Archive of my blog posts arranged chronologicall
 menu:
   main:
     name: Archives
-    weight: 2
+    weight: 1
 
 ---
