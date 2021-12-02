@@ -1,23 +1,39 @@
 ---
 title: "Part (V) : Farewell , Swifty Collections!"
 date: 2021-07-15T13:10:41+05:30
+weight: 1
 slug: "part-v-farewell-swifty-collections"
 tags: ["hof", "collections","swifty-tag"]
 categories: ["hash cat", "gunction-cat"]
 series: ["Swifty-series"]
-aliases: ["migrate-from-jekyl"]
-summary:
-  sum: A brief summary on swift collections' functions such as reduce, filter, map and etc.
-description:
-  desc :A brief summary on swift collections' functions such as reduce, filter, map and etc.
+aliases: ["/first"]
+summary: "sum :A brief summary on swift collections' functions such as reduce, filter, map and etc."
+description: "desc :A brief summary on swift collections' functions such as reduce, filter, map and etc."
 cover:
-  image: https://res.cloudinary.com/jarmos/image/upload/v1628425482/vim-vs-neovim_kn8cm9.gif
+  image: "https://res.cloudinary.com/jarmos/image/upload/v1628425482/vim-vs-neovim_kn8cm9.gif" # image path/url
   alt: swifty alt
-  caption: swifty caption
-  relative: false
-ShowToc: true
+  caption: swifty caption # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+author: ["Alireza Rezagholian"] # multiple authors
+showToc: true
 TocOpen: true
 draft: false
+hidemeta: false
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+comments: false
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 So, it seems that it's the end of the way for Swifty Collections! We learned that there are some functions called Higher Order Functions and their difference with normal ones is that they deal with other functions, either as a *parameter* or as a *return type*.
