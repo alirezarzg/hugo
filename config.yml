@@ -11,6 +11,8 @@ buildExpired: false
 enableEmoji: true
 googleAnalytics: UA-146456365-1
 
+disqusShortname: "swiftycode"
+
 minify:
     disableXML: true
     minifyOutput: true
