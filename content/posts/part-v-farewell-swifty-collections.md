@@ -16,11 +16,11 @@ summary: A brief summary on swift collections' functions such as reduce, filter,
 description: A brief summary on swift collections' functions such as reduce, filter,
   map and etc.
 cover:
-  image: https://cdn.hashnode.com/res/hashnode/image/upload/v1638478670930/ElOpjZmt6.jpeg
-  alt: swifty-code
-  caption: " </Swifty Code>"
+  image: 
+  alt: 
+  caption: 
   relative: false
-  hidden: false
+  hidden: true
 author:
 - Alireza Rezagholian
 showToc: true
