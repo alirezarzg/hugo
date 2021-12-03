@@ -35,7 +35,7 @@ searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-comments: false
+comments: true
 editPost:
   URL: ''
   Text: ''
