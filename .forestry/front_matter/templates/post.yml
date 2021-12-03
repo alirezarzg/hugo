@@ -5,9 +5,16 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
+    date_format: November 26, 2021
+  default: now
+  hidden: false
 - type: text
   name: slug
   label: slug
@@ -16,6 +23,10 @@ fields:
 - type: list
   name: tags
   label: tags
+  config:
+    use_select: false
+    source:
+      type: simple
 - type: list
   name: categories
   label: categories
@@ -50,15 +61,22 @@ fields:
   - type: boolean
     name: hidden
     label: hidden
+    default: false
 - type: list
   name: author
   label: author
+  config:
+    use_select: false
+    source:
+      type: documents
 - type: boolean
   name: showToc
   label: showToc
+  default: true
 - type: boolean
   name: TocOpen
   label: TocOpen
+  default: true
 - type: boolean
   name: hidemeta
   label: hidemeta
@@ -68,6 +86,7 @@ fields:
 - type: boolean
   name: disableHLJS
   label: disableHLJS
+  default: false
 - type: boolean
   name: disableShare
   label: disableShare
@@ -80,15 +99,19 @@ fields:
 - type: boolean
   name: ShowReadingTime
   label: ShowReadingTime
+  default: true
 - type: boolean
   name: ShowBreadCrumbs
   label: ShowBreadCrumbs
+  default: true
 - type: boolean
   name: ShowPostNavLinks
   label: ShowPostNavLinks
+  default: true
 - type: boolean
   name: comments
   label: comments
+  default: true
 - type: field_group
   name: editPost
   label: editPost
