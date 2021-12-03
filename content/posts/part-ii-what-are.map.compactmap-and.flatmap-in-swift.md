@@ -12,7 +12,6 @@ date = 2021-11-13T08:30:00Z
 description = "Let's dig in our very first and also one of the most useful Higher Order functions in Swift's collections !"
 disableHLJS = false
 disableShare = false
-draft = true
 hideSummary = false
 hidemeta = false
 searchHidden = false
