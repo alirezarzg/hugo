@@ -1,27 +1,27 @@
 +++
-ShowBreadCrumbs = false
-ShowPostNavLinks = false
-ShowReadingTime = false
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowReadingTime = true
 TocOpen = true
 aliases = []
-author = ["Alireza Rezagholian"]
+author = []
 canonicalURL = ""
 categories = ["Swifty Collections"]
 comments = true
-date = 2021-11-12T20:30:00Z
+date = 2021-11-13T08:30:00Z
 description = "Let's dig in our very first and also one of the most useful Higher Order functions in Swift's collections !"
 disableHLJS = false
 disableShare = false
+draft = true
 hideSummary = true
 hidemeta = true
 searchHidden = false
-series = []
+series = ["Swifty Collections"]
 showToc = true
 slug = "part-ii-map-compactmap-flatmap"
-summary = ""
+summary = "Let's dig in our very first and also one of the most useful Higher Order functions in Swift's collections !"
 tags = ["higher-order-functions", "swifty-collections"]
 title = "Part (II) : What are .map , .compactMap and .flatMap in Swift"
-
 [cover]
 alt = ""
 caption = ""
