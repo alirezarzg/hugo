@@ -62,7 +62,7 @@ params:
     ShowToc: true
     hidemeta: false
     hideSummary: false
-    # comments: false
+    comments: true
     images: ["favicon-16.png"]
 
     profileMode:
