@@ -8,9 +8,6 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: number
-  name: weight
-  label: weight
 - type: text
   name: slug
   label: slug
