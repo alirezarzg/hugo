@@ -6,7 +6,7 @@ TocOpen = true
 aliases = []
 author = ["Alireza Rezagholian"]
 canonicalURL = ""
-categories = ["Swifty Collection"]
+categories = ["Swifty Collections"]
 comments = true
 date = 2021-11-12T20:30:00Z
 description = "Let's dig in our very first and also one of the most useful Higher Order functions in Swift's collections !"
@@ -19,7 +19,7 @@ series = []
 showToc = true
 slug = "part-ii-map-compactmap-flatmap"
 summary = ""
-tags = ["higher-order-functions", "swifty-collection"]
+tags = ["higher-order-functions", "swifty-collections"]
 title = "Part (II) : What are .map , .compactMap and .flatMap in Swift"
 
 [cover]

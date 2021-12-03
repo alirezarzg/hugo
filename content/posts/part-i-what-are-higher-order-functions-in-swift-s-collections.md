@@ -1,5 +1,6 @@
 +++
-category = "swifty-collection"
+categories = ["Swifty Collections"]
+tags = ["higher-order-functions", "swifty-collections"]
 date = 2021-11-11T19:30:00Z
 description = "What are Higher Order functions in Swift's collections?"
 showtoc = false
@@ -12,6 +13,7 @@ image = ""
 relative = false
 [summary]
 sum = "Ever wondered what is .map? What about .filter?! Wow WTH is .reduce? Here we’ll learn what are these higher order functions in swift collections …"
+comments = true
 
 +++
 Ok Ok, first of all , What are collections in Swift? It's simple!

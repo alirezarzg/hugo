@@ -5,7 +5,6 @@ weight: "1"
 slug: part-v-farewell-swifty-collections
 tags:
 - swifty-collections
-- array
 - higher-order-functions
 categories:
 - Swifty Collections
