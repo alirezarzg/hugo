@@ -103,3 +103,5 @@ fields:
   - type: boolean
     name: appendFilePath
     label: appendFilePath
+pages:
+- content/posts/part-ii-what-are.map.compactmap-and.flatmap-in-swift.md
