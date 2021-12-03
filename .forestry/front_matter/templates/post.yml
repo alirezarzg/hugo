@@ -12,7 +12,7 @@ fields:
   label: date
   config:
     required: true
-    date_format: November 26, 2021
+    date_format: ''
   default: now
   hidden: false
 - type: text
