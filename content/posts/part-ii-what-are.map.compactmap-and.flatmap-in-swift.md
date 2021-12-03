@@ -21,7 +21,7 @@ slug = "part-ii-map-compactmap-flatmap"
 summary = ""
 tags = ["higher-order-functions", "swifty-collection"]
 title = "Part (II) : What are .map , .compactMap and .flatMap in Swift"
-weight = nil
+
 [cover]
 alt = ""
 caption = ""
