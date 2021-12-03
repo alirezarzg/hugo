@@ -11,7 +11,7 @@ categories:
 series:
 - Swifty Collections
 aliases: []
-summary: sum :A brief summary on swift collections' functions such as reduce, filter,
+summary: A brief summary on swift collections' functions such as reduce, filter,
   map and etc.
 description: A brief summary on swift collections' functions such as reduce, filter,
   map and etc.
