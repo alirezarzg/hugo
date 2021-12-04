@@ -53,7 +53,7 @@ params:
     # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
-    # disableSpecial1stPost: true
+    disableSpecial1stPost: false
     displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
@@ -63,7 +63,7 @@ params:
     hidemeta: false
     hideSummary: false
     comments: true
-    images: ["favicon-16.png"]
+    images: ["twitter-card.png"]
 
     profileMode:
         enabled: false
@@ -117,7 +117,7 @@ params:
     #         SiteVerificationTag: XYZabc
 
     assets:
-      favicon: "/favicon-32.png"
+      favicon: "/favicon.png"
       favicon16x16: "/favicon-16.png"
       favicon32x32: "/favicon-32.png"
       apple_touch_icon: "/apple-touch-icon.png"
@@ -134,8 +134,8 @@ params:
         location: 0
         distance: 1000
         threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
+        minMatchCharLength: 3
+        keys: ["title", "summary", "content"]
 
 taxonomies:
     category: categories
