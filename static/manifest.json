@@ -1,6 +1,7 @@
 {
     "name": "Swifty Code",
     "short_name": "Swifty Code",
+    "description": "by Alireza Rezagholian",
     "icons": [
       {
         "src": "/favicon-128.png",
@@ -41,8 +42,8 @@
     "start_url": "/",
     "display": "standalone",
     "orientation": "portrait",
-    "background_color": "#600575",
-    "theme_color": "#600575"
+    "theme_color": "#600575",
+    "background_color": "#00334d"
   }
   
   
