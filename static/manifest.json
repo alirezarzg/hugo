@@ -42,7 +42,7 @@
     "display": "standalone",
     "orientation": "portrait",
     "background_color": "#600575",
-    "theme-color": "#600575"
+    "theme_color": "#600575"
   }
   
   
