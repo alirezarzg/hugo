@@ -49,7 +49,7 @@ Then there were our lovely trio: * **.map**, **.filter**, **.reduce** * .
 
 Here we have a summary of what they are and a simple , *Swifty* example of them!
 
-# [.map, .compactMap, .flatMap](https://swiftycode.com/part-ii-map-compactmap-flatmap) :
+# [.map, .compactMap, .flatMap](https://swiftycode.com/posts/part-ii-map-compactmap-flatmap/) :
 
 ### .map :
 >The whole idea is about mapping collection elements , do something on them and then return the same-sized array of them ! Complexity? O(n)
@@ -89,7 +89,7 @@ print(newArray_SwiftyWay) // Result -> [2, 3]
 
 *Wait wait ... Who was **Roronoa Zoro**?* You mean you hadn't read the full article? 
 
-*Psst ... check out [switycode.com/.map](https://swiftycode.com/part-ii-map-compactmap-flatmap) :) *
+*Psst ... check out [switycode.com/.map](https://swiftycode.com/posts/part-ii-map-compactmap-flatmap/) :) *
 
 ### .flatMap :
 >In Swift 4.1+ .flatMap is used only to help you flattening a nested collection into a single array. Complexity? Complexity? O(m +n) [m is the length of the result]
@@ -108,10 +108,10 @@ let newArray_SwiftyWay: [Int] = array.flatMap { $0 }
 print(newArray_SwiftyWay)
 ```
 
->**✨ As I've mentioned above, you can read the full, detailed article at [switycode.com/.map](https://swiftycode.com/part-ii-map-compactmap-flatmap) **
+>**✨ As I've mentioned above, you can read the full, detailed article at [switycode.com/.map](https://swiftycode.com/posts/part-ii-map-compactmap-flatmap/) **
 
 
-# [.filter](https://swiftycode.com/part-iii-filter) :
+# [.filter](https://swiftycode.com/posts/part-iii-filter/) :
 >.filter returns a new array , with elements which are ok with the predicate (~given logic) declared by the closure; Keep in mind that returned array has the same order as the given array. Complexity? O(n)
 
 ```
@@ -130,12 +130,12 @@ print(newArray)
 // Result -> [1, 4, 0, -2]
 ```
 
-> **☄️ As you might've noticed we could use .comapctMap instead of .filter! So why .filter? The answer is in the full article at [switycode.com/.filter](https://swiftycode.com/part-iii-filter) **
+> **☄️ As you might've noticed we could use .comapctMap instead of .filter! So why .filter? The answer is in the full article at [switycode.com/.filter](https://swiftycode.com/posts/part-iii-filter/) **
 
 
-# [.reduce](https://swiftycode.com/part-iv-reduce) :
+# [.reduce](https://swiftycode.com/posts/part-iv-reduce/) :
 
-**Although it's unbelievably useful but it is a bit tricky! So I deeply suggest you read the detailed article of this awesome Instance Method at [switycode.com/.filter](https://swiftycode.com/part-iv-reduce)! **
+**Although it's unbelievably useful but it is a bit tricky! So I deeply suggest you read the detailed article of this awesome Instance Method at [switycode.com/.filter](https://swiftycode.com/posts/part-iv-reduce/)! **
 
 *There is also a semi-real world example on .map and .reduce + a bit of structs there -**with Naruto 🦊 , Dattebayo!** *
 
@@ -183,5 +183,5 @@ There will also be a single article , **Swifty String: What are Strings behind t
 
 
 ***
-*Thanks a lot for coming this far and reading the article :) As you may know it was a summary on a series about [**Higher Order Functions of Swift's Collection**](https://swiftycode.com/part-i-higher-order-functions-in-swift-collections) , so make sure to read previous articles -if you hadn't already- to completely master this subject -**Dattebayo!** . **Stay Safe** , **Code Well** & **Watch Naruto** =) *
+*Thanks a lot for coming this far and reading the article :) As you may know it was a summary on a series about [**Higher Order Functions of Swift's Collection**](https://swiftycode.com/posts/part-i-higher-order-functions-in-swift-collections/) , so make sure to read previous articles -if you hadn't already- to completely master this subject -**Dattebayo!** . **Stay Safe** , **Code Well** & **Watch Naruto** =) *
 > If you have any questions, suggestions or etc. feel free to contact me at *[alireza@swiftycode.com](mailto:alireza@swiftycode.com)* . We can also chat about One Piece ,Macbeth & Naruto beside Swift -kidding- on Twitter at *[@swiftycode_com](https://twitter.com/swiftycode_com)* .
