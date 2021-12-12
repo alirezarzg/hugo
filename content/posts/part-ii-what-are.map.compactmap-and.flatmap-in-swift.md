@@ -191,7 +191,7 @@ As [developer.apple.com](https://developer.apple.com/documentation/swift/sequenc
 
 Before putting an end to this topic , just like .compactMap , .flatMap has complexity of O(m + n) ! The reason is simple , isn't it? :)
 
-Next: Part (III) : What is .filter in Swift ?
+Next: [Part (III) : What is .filter in Swift ?](https://swiftycode.com/posts/part-iii-filter/)
 
 ***
 

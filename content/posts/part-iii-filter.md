@@ -109,7 +109,7 @@ The same issues -as .compactMap- go with **.map** plus .map isn't able to discar
 Whether 'tis nobler in the mind to suffer
 The slings and arrows of outrageous fortune,"** ... well , I guess by [The slings and arrows] , he meant misusing .compactMap instead of .filter which will cause us so much pain -I'll assure you it's nothing near noble =)))* .
 
-Next : [Part (IV) : What is .reduce in Swift?](https://swiftycode.com/part-iv-reduce)
+Next : [Part (IV) : What is .reduce in Swift?](https://swiftycode.com/posts/part-iv-reduce/)
 ***
 *Thanks a lot for coming this far and reading the article :) As you may know it's a series about **Higher Order Functions of Swift's Collection** , so make sure to read next articles as well as previous one -if you hadn't already- to completely master this subject . **Stay Safe** , **Code Well** & **Read Macbeth** =) *
 > If you have any questions, suggestions or etc. feel free to contact me at *[alireza@swiftycode.com](mailto:alireza@swiftycode.com)* . We can also chat about One Piece & Macbeth beside Swift -kidding- on Twitter at *[@swiftycode_com](https://twitter.com/swiftycode_com)* .

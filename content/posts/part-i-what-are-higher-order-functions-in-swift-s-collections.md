@@ -42,4 +42,4 @@ _Believe me, they'd make your coding life much easier - swiftier :)_
 
 Learn about **.map**, **.compactMap** and **.flatMap** in the next exciting episode =)
 
-Next: Part (II) : [What are .map , .compactMap and .flatMap in Swift?](https://swiftycode.com/part-ii-map-compactmap-flatmap)
+Next: Part (II) : [What are .map , .compactMap and .flatMap in Swift?](https://swiftycode.com/posts/part-ii-map-compactmap-flatmap/)
