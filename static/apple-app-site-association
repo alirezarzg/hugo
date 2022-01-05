@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "WXT3AVA5ZD.ir.wallex",
+      "paths": ["app/webapp","app/payment/result"]
+    }
+    ]
+  }
+}
