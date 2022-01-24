@@ -11,7 +11,7 @@ buildExpired: false
 enableEmoji: true
 googleAnalytics: UA-146456365-1
 
-disqusShortname: "swiftycode"
+disqusShortname: ""
 
 minify:
     disableXML: true
@@ -62,7 +62,7 @@ params:
     ShowToc: true
     hidemeta: false
     hideSummary: false
-    comments: true
+    comments: false
     images: ["twitter-card.png"]
 
     profileMode:
