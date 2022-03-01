@@ -41,7 +41,7 @@ editPost:
   appendFilePath: false
 
 ---
-So, it seems that it's the end of the way for Swifty Collections! We learned that there are some functions called Higher Order Functions and their difference with normal ones is that they deal with other functions, either as a *parameter* or as a *return type*.
+So, it seems that this is the end of the way for Swifty Collections! We learned that there are some functions called Higher Order Functions and their difference with normal ones is that they deal with other functions, either as a *parameter* or as a *return type*.
 
 Also we learned that *Swift provides three primary collection types (arrays, sets, and dictionaries) for storing collections of values.*
 
