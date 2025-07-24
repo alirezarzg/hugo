@@ -20,15 +20,15 @@ We’re here to help with questions, feedback, or bug reports.
 |----------|--------|
 | **How do I import my comics?** | In **Library ▶ ＋ Add Comics** choose *Files*, *AirDrop*, *Share Sheet* or **Drag & Drop** CBZ, CBR, ZIP, RAR, or a whole folder. |
 | **Does XiComic collect any data?** | No. All comics stay on your device unless you manually move them to iCloud Drive. See our full policy below. |
-| **The app crashed—what should I do?** | Relaunch XiComic and try again. If it still crashes, email us with your device model, iOS/iPadOS version and steps to reproduce. |
-| **Can I request a feature?** | Absolutely! Send your idea to our support email; we track every suggestion. |
+| **The app crashed—what should I do?** | Email us with your device model, iOS/iPadOS version and steps to reproduce, Manyyy thanks in advance. |
+| **Can I request a feature?** | Absolutely! Send your idea to our support email [self@alireza.codes](mailto:self@alireza.codes); we track every suggestion. |
 
 ---
 
 ## 🔐 Privacy & Legal
 
 XiComic is designed to be privacy-first.  
-Please review our [Privacy Policy](https://xicomic.app/privacy) to learn how we handle (or deliberately avoid) data collection.
+Please review our [Privacy Policy](https://www.freeprivacypolicy.com/live/3a07d9b4-e5d1-467f-9a6e-99e9238adf7d) to learn how we handle (or deliberately avoid) data collection.
 
 ---
 
