@@ -1,5 +1,6 @@
-baseURL: "https://swiftycode.com"
+baseURL: "https://swiftycode.com/blog/"
 title: Swifty Code
+publishDir: public/blog
 paginate: 10
 theme: PaperMod
 

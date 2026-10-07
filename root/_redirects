@@ -1,0 +1,37 @@
+/blog/support/                                            /support/                                                      301!
+
+/posts/part-i-higher-order-functions-in-swift-collections/  /blog/posts/part-i-higher-order-functions-in-swift-collections/  301
+/posts/part-ii-map-compactmap-flatmap/                    /blog/posts/part-ii-map-compactmap-flatmap/                    301
+/posts/part-iii-filter/                                   /blog/posts/part-iii-filter/                                   301
+/posts/part-iv-reduce/                                    /blog/posts/part-iv-reduce/                                    301
+/posts/part-v-farewell-swifty-collections/                /blog/posts/part-v-farewell-swifty-collections/                301
+/posts/                                                   /blog/posts/                                                   301
+/categories/                                              /blog/categories/                                              301
+/categories/swifty-collections/                           /blog/categories/swifty-collections/                           301
+/tags/                                                    /blog/tags/                                                    301
+/tags/higher-order-functions/                             /blog/tags/higher-order-functions/                             301
+/tags/swifty-collections/                                 /blog/tags/swifty-collections/                                 301
+/series/                                                  /blog/series/                                                  301
+/series/swifty-collections/                               /blog/series/swifty-collections/                               301
+/archives/                                                /blog/archives/                                                301
+/search/                                                  /blog/search/                                                  301
+/index.xml                                                /blog/index.xml                                                301
+/index.json                                               /blog/index.json                                               301
+/sitemap.xml                                              /blog/sitemap.xml                                              301
+/twitter-card.png                                         /blog/twitter-card.png                                         301
+
+/posts                                                    /blog/posts/                                                   301
+/posts/*                                                  /blog/posts/:splat                                             301
+/categories                                               /blog/categories/                                              301
+/categories/*                                             /blog/categories/:splat                                        301
+/tags                                                     /blog/tags/                                                    301
+/tags/*                                                   /blog/tags/:splat                                              301
+/series                                                   /blog/series/                                                  301
+/series/*                                                 /blog/series/:splat                                            301
+/archives                                                 /blog/archives/                                                301
+/archives/*                                               /blog/archives/:splat                                          301
+/search                                                   /blog/search/                                                  301
+/search/*                                                 /blog/search/:splat                                            301
+/page/*                                                   /blog/page/:splat                                              301
+
+/blog/*                                                   /blog/404.html                                                 404
