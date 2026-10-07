@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Swifty Code Studio</title>
+<meta name="description" content="Swifty Code Studio is an independent studio building apps for Apple platforms. Its app xiComic, a privacy-first comic and manga reader, is on the App Store.">
+<link rel="canonical" href="https://swiftycode.com/">
+<link rel="icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="apple-itunes-app" content="app-id=6749070576">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://swiftycode.com/">
+<meta property="og:title" content="Swifty Code Studio">
+<meta property="og:description" content="An independent studio building apps for Apple platforms.">
+<meta property="og:image" content="https://swiftycode.com/images/xicomic-icon-256.webp">
+<style>
+:root {
+  --bg: #ffffff;
+  --surface: #fff3ec;
+  --text: #1d1715;
+  --muted: #5c504a;
+  --accent: #b3360f;
+  --rule: #ecdcd3;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141110;
+    --surface: #231c19;
+    --text: #f5efeb;
+    --muted: #c4b8b1;
+    --accent: #ff9068;
+    --rule: #3a2f2a;
+  }
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+a { color: var(--accent); text-underline-offset: 0.15em; }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+img { max-width: 100%; height: auto; display: block; }
+.skip {
+  position: absolute; left: 1rem; top: -4rem;
+  background: var(--bg); color: var(--text); padding: 0.5rem 1rem; border-radius: 0.5rem;
+}
+.skip:focus { top: 1rem; }
+.wrap { width: min(100% - 2.5rem, 68rem); margin-inline: auto; }
+.top {
+  display: flex; justify-content: flex-end; align-items: center; gap: 1rem;
+  padding-block: 1rem; flex-wrap: wrap;
+}
+.top a { font-weight: 600; }
+.studio { padding-block: 1.5rem 2.5rem; }
+.studio p { margin: 0.5rem 0 0; font-size: 1.25rem; color: var(--muted); max-width: 36rem; }
+.studio .byline { margin: 0.35rem 0 0; font-size: 1rem; font-weight: 500; }
+.eyebrow { margin: 0 0 1rem; color: var(--accent); font-weight: 700; font-size: 0.875rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.product { border-top: 1px solid var(--rule); padding-block: 3rem 0; }
+.hero {
+  display: grid; gap: 2.5rem; align-items: center;
+  padding-block: 0 3.5rem;
+}
+.brand { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.25rem; }
+.brand img { width: 4.5rem; height: 4.5rem; border-radius: 22%; }
+h1 { font-size: clamp(2.5rem, 1.8rem + 3vw, 4rem); line-height: 1.05; margin: 0; letter-spacing: -0.02em; }
+.brand h2 { font-size: clamp(2rem, 1.5rem + 2vw, 3rem); line-height: 1.1; margin: 0; letter-spacing: -0.02em; }
+.subtitle { margin: 0.25rem 0 0; color: var(--muted); font-size: 1.125rem; font-weight: 600; }
+.lead { font-size: 1.25rem; margin: 0 0 1rem; max-width: 36rem; }
+.facts { margin: 0 0 1.75rem; color: var(--muted); max-width: 36rem; }
+.badge { display: inline-block; border-radius: 0.6rem; }
+.badge img { width: 10rem; height: auto; }
+.hero-shot { justify-self: center; width: min(100%, 18rem); }
+.hero-shot img, .shots img { border-radius: 1.25rem; box-shadow: 0 0.5rem 2rem rgb(0 0 0 / 0.18); }
+section { padding-block: 3rem; border-top: 1px solid var(--rule); }
+h2 { font-size: 1.75rem; line-height: 1.2; margin: 0 0 1.5rem; letter-spacing: -0.01em; }
+h3 { font-size: 1.375rem; line-height: 1.25; margin: 0 0 1.25rem; }
+h4 { font-size: 1.125rem; margin: 0 0 0.4rem; }
+.sub { padding-block: 2.5rem; border-top: 1px solid var(--rule); }
+.features { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.25rem; }
+.features li, .upcoming li { background: var(--surface); border-radius: 1rem; padding: 1.25rem 1.4rem; }
+.upcoming { list-style: none; margin: 0; padding: 0; display: grid; gap: 1rem; }
+.upcoming p { margin: 0; }
+.features p { margin: 0; }
+.shots {
+  list-style: none; margin: 0; padding: 0 0 1rem; display: grid; gap: 1rem;
+  grid-auto-flow: column; grid-auto-columns: min(70%, 16rem);
+  overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain;
+}
+.shots li { scroll-snap-align: start; }
+.shots:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 1rem; }
+.requirements { margin: 0; padding-left: 1.25rem; }
+footer { border-top: 1px solid var(--rule); padding-block: 2rem 3rem; color: var(--muted); }
+footer ul { list-style: none; padding: 0; margin: 0 0 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+footer p { margin: 0.25rem 0; }
+@media (min-width: 48rem) {
+  .hero { grid-template-columns: 1.3fr 1fr; padding-block: 4rem 5rem; }
+  .features { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .upcoming { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+  .shots { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 18rem)); justify-content: center; gap: 2rem; overflow: visible; padding-bottom: 0; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap top">
+  <nav aria-label="Site">
+    <a href="/blog/">Blog</a>
+  </nav>
+</header>
+<main id="main">
+  <div class="wrap studio">
+    <h1>Swifty Code Studio</h1>
+    <p class="byline">by Alireza Rezagholian</p>
+    <p>An independent studio building apps for Apple platforms.</p>
+  </div>
+
+  <article class="product" aria-labelledby="xicomic">
+    <div class="wrap hero">
+      <div>
+        <p class="eyebrow">On the App Store</p>
+        <div class="brand">
+          <img src="/images/xicomic-icon-128.webp" srcset="/images/xicomic-icon-256.webp 2x" width="72" height="72" alt="xiComic app icon">
+          <div>
+            <h2 id="xicomic">xiComic</h2>
+            <p class="subtitle">Comic &amp; Manga Reader</p>
+          </div>
+        </div>
+        <p class="lead">A privacy-first reader for the comic and manga files you already have. No storefront, no ads, no account needed.</p>
+        <p class="facts">Free on the App Store for iPhone, iPad, Mac and Apple Vision, with no in-app purchases and no subscriptions.</p>
+        <a class="badge" href="https://apps.apple.com/de/app/xicomic-comic-manga-leser/id6749070576">
+          <picture>
+            <source srcset="/images/app-store-badge-white.svg" media="(prefers-color-scheme: dark)">
+            <img src="/images/app-store-badge-black.svg" width="160" height="53" alt="Download xiComic on the App Store">
+          </picture>
+        </a>
+      </div>
+      <div class="hero-shot">
+        <img src="/images/xicomic-reader-300.webp" srcset="/images/xicomic-reader-600.webp 2x" width="300" height="650" alt="xiComic reading a comic page, showing page 2 of 21 with the reader controls at the top">
+      </div>
+    </div>
+
+    <section class="sub" aria-labelledby="features">
+      <div class="wrap">
+        <h3 id="features">What xiComic does</h3>
+        <ul class="features">
+          <li>
+            <h4>Open the files you have</h4>
+            <p>CBZ, CBR, ZIP and RAR files, RAR5 included, from Files, AirDrop, the Share Sheet or drag and drop, plus folders of JPG, PNG, WEBP, HEIC and GIF images.</p>
+          </li>
+          <li>
+            <h4>Read your way</h4>
+            <p>Comic Mode left to right, Manga Mode right to left, and Vertical Scroll for webtoons and long-strip comics.</p>
+          </li>
+          <li>
+            <h4>Organise your library</h4>
+            <p>Create collections, sort your library however you like, or tap Magic Organizer to group series automatically.</p>
+          </li>
+          <li>
+            <h4>Private and offline</h4>
+            <p>Your library lives on your device and needs no internet connection. Your files never leave your device unless you choose to.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sub" aria-labelledby="screenshots">
+      <div class="wrap">
+        <h3 id="screenshots">Screenshots</h3>
+        <ul class="shots" tabindex="0" aria-label="xiComic screenshots">
+          <li><img src="/images/xicomic-import-300.webp" srcset="/images/xicomic-import-600.webp 2x" width="300" height="650" loading="lazy" alt="The xiComic library with the add menu open, offering Files, Create Collection and Magic Collection"></li>
+          <li><img src="/images/xicomic-sort-300.webp" srcset="/images/xicomic-sort-600.webp 2x" width="300" height="650" loading="lazy" alt="The xiComic library in dark mode with the sort menu open, offering Name, Date Added and Last Read"></li>
+          <li><img src="/images/xicomic-manage-300.webp" srcset="/images/xicomic-manage-600.webp 2x" width="300" height="650" loading="lazy" alt="A comic's menu in the xiComic library, offering Rename, Delete and Add to Collection"></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sub" aria-labelledby="requirements">
+      <div class="wrap">
+        <h3 id="requirements">Requirements</h3>
+        <ul class="requirements">
+          <li>iPhone with iOS 17.6 or later</li>
+          <li>iPad with iPadOS 17.6 or later</li>
+          <li>Mac with an Apple M1 chip or later and macOS 14.6 or later</li>
+          <li>Apple Vision with visionOS 1.3 or later</li>
+        </ul>
+      </div>
+    </section>
+  </article>
+
+  <section aria-labelledby="in-development">
+    <div class="wrap">
+      <h2 id="in-development">In development</h2>
+      <ul class="upcoming">
+        <li><p><strong>Keep</strong>: a smart bookmark and read-later app</p></li>
+        <li><p><strong>Play</strong>: an enhanced video player for Apple silicon</p></li>
+        <li><p><strong>Place</strong>: a smart places data service with AI data pipelines</p></li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <ul>
+      <li><a href="https://apps.apple.com/de/app/xicomic-comic-manga-leser/id6749070576">xiComic on the App Store</a></li>
+      <li><a href="https://www.freeprivacypolicy.com/live/3a07d9b4-e5d1-467f-9a6e-99e9238adf7d">Privacy Policy</a></li>
+      <li><a href="/support/">Support</a></li>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+    <p>Seller: Alireza Rezagholian</p>
+    <p>Contact: <a href="mailto:alireza@swiftycode.com">alireza@swiftycode.com</a></p>
+  </div>
+</footer>
+</body>
+</html>

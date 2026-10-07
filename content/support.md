@@ -1,3 +1,6 @@
+---
+canonicalURL: "https://swiftycode.com/support/"
+---
 # XiComic — Support
 
 _Last updated: 25 July 2025_

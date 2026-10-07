@@ -1,5 +1,6 @@
-baseURL: "https://swiftycode.com"
+baseURL: "https://swiftycode.com/blog/"
 title: Swifty Code
+publishDir: public/blog
 paginate: 10
 theme: PaperMod
 
@@ -117,7 +118,7 @@ params:
     #         SiteVerificationTag: XYZabc
 
     assets:
-      favicon: "/favicon.png"
+      favicon: "/favicon.ico"
       favicon16x16: "/favicon-16.png"
       favicon32x32: "/favicon-32.png"
       apple_touch_icon: "/apple-touch-icon.png"

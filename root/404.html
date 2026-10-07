@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="noindex">
+<title>Page not found</title>
+<link rel="icon" href="/favicon.ico">
+<style>
+:root { --bg: #ffffff; --text: #1d1715; --muted: #5c504a; --accent: #b3360f; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #141110; --text: #f5efeb; --muted: #c4b8b1; --accent: #ff9068; }
+}
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.0625rem; line-height: 1.6;
+}
+main { width: min(100% - 2.5rem, 40rem); margin: 4rem auto; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 1rem; }
+p { color: var(--muted); }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Page not found</h1>
+  <p>This page does not exist.</p>
+  <p><a href="/">Go to the home page</a> or <a href="/blog/">read the blog</a>.</p>
+</main>
+</body>
+</html>

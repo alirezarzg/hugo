@@ -12,23 +12,6 @@
     <span><a href="../privacy-policy/index.html">Privacy Policy</a></span>
   <span>Articles Are Licensed Under <a href="https://github.com/Jarmos-san/blog/blob/main/LICENSE" rel="nooopener noreferrer" target="_blank">CC BY-NC 4.0</a></span> -->
 
-  <!--PWA start-->
-  <script>
-    if('serviceWorker' in navigator) {
-        navigator.serviceWorker
-            .register('/sw.js', { scope: '/' })
-            .then(function(registration) {
-                //console.log('Service Worker Registered');
-            });
-  
-        navigator.serviceWorker
-            .ready
-            .then(function(registration) {
-                //console.log('Service Worker Ready');
-            });
-    }
-  </script>
-  <!--PWA end-->
 
 </footer>
 
